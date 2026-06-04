@@ -1,0 +1,17 @@
+
+val/.DS_Store
+.DS_Store
+.DS_Store
+.DS_Store
+# Python environment
+emap_env/
+
+# Python cache
+__pycache__/
+.ipynb_checkpoints/
+
+train/
+val/
+
+# Generated topomap data (large files - run pipeline on server)
+topomap_data/
