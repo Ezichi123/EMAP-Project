@@ -33,6 +33,7 @@ timesteps never contribute to the loss or the reported metric.
 EMAP-Project/
 ├── 01_topomap_exploration.ipynb   # EDA + topomap generation pipeline
 ├── 02_dataset_and_model.ipynb     # dataset, CNN+GRU model, training, Optuna tuning
+├── 03_raw_features.ipynb
 ├── fix_loops.ipynb                # one-time loop-label correction utility
 ├── model_fullseq.ipynb            # full-sequence (whole-trial) experiment
 ├── prediction.py                  # INFERENCE script — run trained model on test CSVs
@@ -43,6 +44,10 @@ EMAP-Project/
 │   └── scaler_arousal.pkl
 ├── models/                        # trained checkpoints (gitignored; see note)
 │   └── step3_optuna_tuning_best.pt   # best model (RMSE 0.2993)
+├── Model Architectures
+│   ├── OptunaModelBest.py
+│   └── v4_data_masking_baseline.py
+│   └── v4_data_masking_loop_fixture.py
 ├── DATA.md                        # dataset structure notes
 ├── requirements.txt               # Python dependencies
 └── README.md

@@ -15,3 +15,10 @@ val/
 
 # Generated topomap data (large files - run pipeline on server)
 topomap_data/
+.vscode/
+test_topomap.png
+models/*
+!models/step3_optuna_tuning_best.pt
+!models/optuna_step3_trials.csv
+!models/optuna_step4_trials.csv
+!models/results_log.jsonl
