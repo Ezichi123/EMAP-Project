@@ -42,6 +42,8 @@ EMAP-Project/
 ├── scalers/                       # saved StandardScalers (fit on train)
 │   ├── scaler_phys.pkl
 │   └── scaler_arousal.pkl
+│   └── scaler_gsr.pkl
+│   └── scaler_hr.pkl
 ├── models/                        # trained checkpoints (gitignored; see note)
 │   └── step3_optuna_tuning_best.pt   # best model (RMSE 0.2993)
 ├── Model Architectures
