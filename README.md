@@ -44,8 +44,12 @@ EMAP-Project/
 │   └── scaler_arousal.pkl
 │   └── scaler_gsr.pkl
 │   └── scaler_hr.pkl
+│   └── participant_arousal_stats.csv
 ├── models/                        # trained checkpoints (gitignored; see note)
 │   └── step3_optuna_tuning_best.pt   # best model (RMSE 0.2993)
+│   └── optuna_step3_trials.csv
+│   └── optuna_step4_trials.csv
+│   └── results_log.jsonl
 ├── Model Architectures
 │   ├── OptunaModelBest.py
 │   └── v4_data_masking_baseline.py
